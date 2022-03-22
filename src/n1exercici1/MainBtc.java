@@ -4,7 +4,7 @@ public class MainBtc {
 	
 	static BtcBroker btc_broker = new BtcBroker();
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { // PATRÓN OBSERVER
 		
 		new Coinbase(btc_broker);
 		new Binance(btc_broker);
