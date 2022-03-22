@@ -4,7 +4,7 @@ public class CurrencySimpleFactory {
 	
 	public enum CurrencyType {EURO, AUSTRALIANDOLLAR, YEN};
 	
-	public CurrencyConverter createCurrency(CurrencyType type) {
+	public static CurrencyConverter createCurrency(CurrencyType type) {
 		
 		CurrencyConverter currency = null;
 		
